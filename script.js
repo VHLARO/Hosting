@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const targetDate = new Date("2025-03-01T00:00:00").getTime(); // Usar fecha y hora de prueba
+    const targetDate = new Date("2025-02-28T00:00:00").getTime(); // Usar fecha y hora de prueba
     const now = new Date().getTime();
     const difference = targetDate - now;
     
