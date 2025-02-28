@@ -22,13 +22,14 @@
 
         <div class="container">
             <div class="envelope">
-                <a id="downloadLink" href="img/2mese.pdf" download>
-                    <img src="img/carta.png" alt="Carta con corazón">
-                </a>
+                <img src="img/carta.png" alt="Carta con corazón" id="letter">
             </div>
-            <div id="countdown">Nueva carta en: 0d 0h 0m 0s</div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script>
+        document.getElementById("letter").addEventListener("click", function() {
+            alert("Gracias");
+        });
+    </script>
 </body>
 </html>
